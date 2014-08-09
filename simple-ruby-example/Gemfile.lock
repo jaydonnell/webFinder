@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    nokogiri (1.6.3.1-java)
+    opengraph_parser (0.2.3)
+      addressable
+      nokogiri
+    redis (3.1.0)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  opengraph_parser
+  redis
